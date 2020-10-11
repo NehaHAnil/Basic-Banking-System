@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Basic Banking System</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link rel="icon" type="image/png" href="logo1.png">
+      
+    </head>
+    <style>
+        .leftside,.rightside{
+            height: 50vh;
+            width: 100%;
+        }
+
+        .leftside{
+            background-color:lightblue;
+            position: absolute;
+            padding-top: 35%;
+            padding-right: 10%;
+        }
+        .rightside{
+            background-image: url(business.jpg);
+            background-repeat: no-repeat;
+            background-size:contain;
+            padding-top: 0.8%;
+        }
+
+        @media screen and (min-width:760px) {
+            .leftside,.rightside{
+                height: 100vh;
+            }
+            
+        }
+
+        .users{
+            position: absolute;
+            top: 60%;
+            text-align: center;
+            padding-left: 40%;
+            padding-right: 10%;
+        }
+        .par{
+            position: absolute;
+            padding-top: 60%;
+            text-align: center;
+            padding-right: 10%;
+            bottom: 10%;
+            left: 45%;
+        }
+
+        h4:hover{
+            background-color:lightblue;
+            font-style: italic;
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
+
+<body>
+    <div class="row no-gutters">
+        <div class="col-md-6 no-gutters">
+            <div class="leftside" d-flex justify-content-center align-items-center>
+                <center><img src="logo1.png" alt="logo" width="300" height="200"></center>
+            </div>
+        </div>
+        <div class="col-md-6 no-gutters">
+            <div class="rightside">
+                <center><h1 style="font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; color:lightblack;">BASIC BANKING SYSTEM</h1></center>
+                <div class="users">
+                    <a href="view_customer1.php"><h4 style="color:black; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">VIEW CUSTOMER</h4></a>
+                    <a href="transfer1.php"><h4 style="color:black; size: 1em; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">TRANSFER AMOUNT</h4></a>
+                </div>
+            </div>
+        </div>
+        <div class="par">
+            <p>&copy;Created by Neha H A</p>
+        </div>
+    </div>
+    
+</body>
+</html>
